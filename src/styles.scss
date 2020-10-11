@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: Inter;
+  src: url(assets/fonts/Inter.ttf) format("opentype");
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -6,4 +9,5 @@
 
 body,html{
   overflow-x: hidden;
+  font-family: 'Inter', 'sans-serif';
 }

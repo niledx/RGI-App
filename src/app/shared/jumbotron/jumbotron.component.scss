@@ -1,11 +1,12 @@
 #Home {
-	padding-left: 230px;
-	padding-right: 230px;
+	padding-left: 12vw;
+	padding-right: 12vw;
 	padding-top: 100px;
 	color: #afc9cf;
 }
 
 .btn-c2a {
+  margin-top: 28px;
 	background: linear-gradient(83.17deg, #55a823 34.01%, #a2f054 100%);
 	border-radius: 10px;
 	padding: 23px 48px 22px 48px;
@@ -41,7 +42,8 @@
 	background: rgba(27, 50, 52, 0.15);
 	backdrop-filter: blur(10px);
 	border-radius: 10px;
-	height: 200px;
+  height: 100%;
+  padding-bottom: 60px;
 	text-align: center;
 	margin-top: -36px;
 	p {
@@ -49,8 +51,6 @@
 		font-weight: 600;
 		font-size: 24px;
 		line-height: 29px;
-		/* identical to box height */
-
 		letter-spacing: 1px;
 	}
 }
@@ -58,7 +58,7 @@
 .char {
 	z-index: 999;
 	position: relative;
-	margin-left: 298px;
+	margin-left: 15vw;
 }
 
 .sponsor-img {
@@ -78,7 +78,8 @@
 	}
 	.cols {
 		display: grid;
-		grid-auto-flow: column;
+    grid-auto-flow: column;
+    margin-top: 40px;
 		.twocols {
 			.col-head {
 				display: inline;
@@ -199,9 +200,12 @@
 	}
 	.contact-body {
 		display: grid;
-		grid-auto-flow: column;
-		background-image: url(../../../assets/worldmap.svg);
-
+    grid-template-columns: auto auto;
+    background-image: url(../../../assets/worldmap.svg);
+    background-repeat: no-repeat;
+    div{
+      margin-top: 40px;
+    }
 		.info {
 			width: 24vw;
 		}
@@ -256,5 +260,5 @@
 				border-radius: 10px;
 			}
 		}
-	}
+  }
 }

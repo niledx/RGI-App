@@ -1,0 +1,23 @@
+.container{
+  height: 295px;
+  background: #0D191C;
+  text-align: center;
+  div{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  ul{
+    padding-bottom: 40px;
+  }
+  p{
+    color: #82999E;
+  }
+}
+
+.horizontal-list{
+  display: grid;
+  grid-template-columns: 64px 64px 64px 64px;
+  gap: 24px;
+  place-content: center;
+  list-style-type: none;
+}
